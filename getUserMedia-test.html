@@ -15,7 +15,7 @@
       video.srcObject = mediaStream;
       video.onloadedmetadata = function (e) {
         video.play();
-        alert(1);
+        alert(e);
         alert(video.srcObject)
       };
       alert(2);
